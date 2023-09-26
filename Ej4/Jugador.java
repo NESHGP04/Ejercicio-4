@@ -1,5 +1,11 @@
+/*Ejercicio #4 - Herencia
+ * Marinés García - 23391
+ * PAPA
+ */
+
 public class Jugador{
-    
+
+        //Declaración variables 
         protected String nombre;
         protected String pais;
         protected int faltas;
@@ -21,4 +27,5 @@ public class Jugador{
         protected String getNombre(){
             return this.nombre;
         }
+
 }
